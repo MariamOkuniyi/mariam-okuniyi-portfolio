@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Mariam Okuniyi</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+        <h1>Mariam Okuniyi</h1>
+        <p>Frontend Developer in Canada</p>
+    </header>
+
+    <!-- NAV -->
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main id="content">
+
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaboration or questions.</p>
+
+        <form id="contactForm">
+    <div id="form-container">
+
+        <!-- NAME -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name">
+        <p id="nameError" class="error">Please enter your name.</p>
+
+        <!-- PHONE -->
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone">
+        <p id="phoneError" class="error">Enter a valid 10-digit phone number.</p>
+
+        <!-- EMAIL -->
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email">
+        <p id="emailError" class="error">Enter a valid email address.</p>
+
+        <!-- MESSAGE -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </div>
+</form>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <p>&copy; 2026 Mariam Okuniyi</p>
+        <p>
+            <a href="index.html">Home</a> |
+            <a href="services.html">Skills</a> |
+            <a href="contact.html">Contact</a>
+        </p>
+    </footer>
+
+    <!-- LINK TO JAVASCRIPT (REQUIRED) -->
+    <script src="js/validation.js"></script>
+
+</body>
+</html>
