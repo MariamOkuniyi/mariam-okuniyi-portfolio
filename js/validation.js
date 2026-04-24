@@ -1,4 +1,28 @@
+/*
+Name: Mariam Okuniyi
+Course: WEBD-1008 Website Development
+Project: Project 4 - Website Development & Deployment
 
+Description:
+This script handles form validation for the contact page.
+It ensures that users enter valid data before submitting the form.
+
+Validation Rules:
+- Name field must not be empty
+- Phone number must be 10 digits
+- Email must follow a valid format
+
+Features:
+- Displays error messages for invalid input
+- Highlights and focuses on incorrect fields
+- Prevents form submission if validation fails
+
+Technologies:
+- JavaScript
+- Regular Expressions
+
+Date: 04/23/2026
+*/
 document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById("contactForm").addEventListener("submit", function(event) {

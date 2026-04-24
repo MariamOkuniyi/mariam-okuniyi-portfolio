@@ -1,3 +1,30 @@
+<!--
+Name: Mariam Okuniyi
+Course: WEBD-1008 Website Development
+Project: Project 4 - Website Development & Deployment
+
+Description:
+This website is a personal portfolio created using HTML5, CSS, and JavaScript.
+It showcases my frontend development skills, design approach, and learning journey.
+
+Pages:
+- Home (index.html): Introduction and overview
+- Skills (services.html): Highlights of my technical skills
+- Contact (contact.html): Contact form with validation
+
+Technologies Used:
+- HTML5
+- CSS3
+- JavaScript (form validation)
+
+Date: 04/23/2026
+-->
+
+<!--
+Page: Home
+Purpose:
+This page introduces me as a frontend developer and gives an overview of my journey and current focus.
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +42,10 @@
 
     <!-- Link to google font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sekuya&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -28,9 +59,9 @@
     <!-- NAVIGATION (same on all pages) -->
     <nav id="nav">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Skills</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="services.html" class="active">Skills</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
         </ul>
     </nav>
 
@@ -77,9 +108,9 @@
     <footer id="footer">
         <p>&copy; 2026 Mariam Okuniyi</p>
         <p>
-            <a href="index.html">Home</a> |
-            <a href="services.html">Skills</a> |
-            <a href="contact.html">Contact</a>
+            <a href="index.html" class="active">Home</a> |
+            <a href="services.html" class="active">Skills</a> |
+            <a href="contact.html" class="active">Contact</a>
         </p>
     </footer>
 

@@ -1,13 +1,52 @@
+/*
+Name: Mariam Okuniyi
+Course: WEBD-1008 Website Development
+Project: Project 4 - Website Development & Deployment
+
+Description:
+This stylesheet controls the layout and design of the website.
+It ensures a clean, responsive, and consistent user interface across all pages.
+
+Sections:
+- Global styles (body, headings)
+- Header and Navigation
+- Content layout
+- Skills page styling
+- Contact form styling
+- Responsive design (media queries)
+
+Technologies:
+- CSS3
+- Flexbox
+- Media Queries
+
+Date: 04/23/2026
+*/
+
 /* Reset default browser spacing */
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #FAF9F6; /* soft cream */
+    background-color: #FAF9F6; 
     color: #333333;
 }
 
 h1, h2, h3 {
     font-weight: 600;
+}
+
+
+#header h1 {
+    font-family: 'Gravitas One', serif;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+#header p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.95rem;
 }
 
 #header {
@@ -18,7 +57,7 @@ h1, h2, h3 {
 }
 
 #nav {
-    background-color: #E8D8C4; /* soft beige */
+    background-color: #E8D8C4;
 }
 
 #nav ul {
@@ -50,6 +89,12 @@ h1, h2, h3 {
 
 #nav a:focus {
     outline: 2px solid #C8A2C8;
+}
+
+#nav a.active {
+    background-color: #C8A2C8;
+    color: white;
+    border-radius: 5px;
 }
 
 #content {
@@ -96,7 +141,7 @@ h2 {
      width: 100%;
     height: 180px;
     object-fit: cover;
-    border-radius: 10px; /* NOT circle */
+    border-radius: 10px;
 }
 
 #skills-container section:last-child {
@@ -139,6 +184,7 @@ button:hover {
 
 .button-link:hover {
     background-color: #a67fa6;
+    transform: translateY(-2px);
 }
 
 #footer {
@@ -146,7 +192,7 @@ button:hover {
     color: white;
     text-align: center;
     padding: 15px;
-    font-size: 0.9em; /* smaller text (REQUIRED idea) */
+    font-size: 0.9em; 
 }
 
 #footer a {
@@ -165,7 +211,7 @@ input, textarea {
     box-sizing: border-box;  
 }
 
-/* Focus effect (REQUIRED) */
+/* Focus effect */
 input:focus, textarea:focus {
     background-color: #E8D8C4;
     color: #333;
